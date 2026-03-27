@@ -1,0 +1,42 @@
+export const REGISTERED_PETS = [
+  {
+    id: '1',
+    name: 'Cookie',
+    species: 'Dog',
+    breed: 'Labrador',
+    age: '6',
+    weight: '20',
+  },
+  {
+    id: '2',
+    name: 'Milo',
+    species: 'Cat',
+    breed: 'Siamese',
+    age: '2',
+    weight: '4.5',
+  },
+  {
+    id: '3',
+    name: 'Charlie',
+    species: 'Rabbit',
+    breed: 'Holland Lop',
+    age: '1',
+    weight: '1.8',
+  },
+  {
+    id: '4',
+    name: 'Oliver',
+    species: 'Hamster',
+    breed: 'Syrian',
+    age: '1',
+    weight: '0.15',
+  },
+  {
+    id: '5',
+    name: 'Luna',
+    species: 'Bird',
+    breed: 'Cockatiel',
+    age: '3',
+    weight: '0.09',
+  },
+];
