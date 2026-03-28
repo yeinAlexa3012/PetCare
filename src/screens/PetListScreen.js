@@ -25,7 +25,7 @@ const PetListScreen = ({ navigation }) => {
       <TouchableOpacity
         onPress={() => {
           navigation.navigate('Details', {
-            petId: item.id,
+            id: item.id,
             name: item.name,
             species: item.species,
             breed: item.breed,

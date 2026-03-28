@@ -1,5 +1,3 @@
-import { COLORS } from './Colors';
-
 export const appStyle = {
   tabStyle: {
     backgroundColor: '#fff',

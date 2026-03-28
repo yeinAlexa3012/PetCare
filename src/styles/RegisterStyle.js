@@ -1,4 +1,3 @@
-import { Color } from 'react-native/types_generated/Libraries/Animated/AnimatedExports';
 import { COLORS } from './Colors';
 
 export const registerStyle = {
@@ -54,7 +53,7 @@ export const registerStyle = {
     color: '#fff',
     fontWeight: 'bold',
   },
-  buttonContainer:{
-    flexDirection: 'row'
-  }
+  buttonContainer: {
+    flexDirection: 'row',
+  },
 };

@@ -3,7 +3,7 @@ import { View, Image, TouchableOpacity, Text } from 'react-native';
 import { ScrollView } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { petImages } from '../assets/utils/petImages';
-import { detailsStyle } from '../styles/DeatilsStyle';
+import { detailsStyle } from '../styles/DetailsStyle';
 
 const PetDetailsScreen = ({ navigation, route }) => {
   const { id, name, species, breed, age, weight } = route.params;
@@ -34,13 +34,13 @@ const PetDetailsScreen = ({ navigation, route }) => {
               onPress={() => setIsFavorite(!isFavorite)}
               style={[
                 detailsStyle.favoriteBtn,
-                { backgroundColor: isFavorite ? '#ff6b6b' : '#ddd' }, 
+                { backgroundColor: isFavorite ? '#ff6b6b' : '#ddd' },
               ]}
             >
               <Text
                 style={[
                   detailsStyle.favoriteBtnText,
-                  { color: isFavorite ? '#fff' : '#333' }, 
+                  { color: isFavorite ? '#fff' : '#333' },
                 ]}
               >
                 {isFavorite ? 'Favorite' : 'Add to Favorites'}
