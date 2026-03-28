@@ -5,6 +5,5 @@ export const appStyle = {
     display: 'flex',
     borderTopWidth: 0,
     height: 60,
-    position: 'absolute',
   },
 };

@@ -117,6 +117,11 @@ const RegisterScreen = () => {
             </View>
 
             <View style={registerStyle.buttonContainer}>
+              <View style={registerStyle.buttonClean}>
+                <TouchableOpacity onPress={clearButton}>
+                  <Text style={registerStyle.textButton}>Clean</Text>
+                </TouchableOpacity>
+              </View>
               <TouchableOpacity
                 onPress={registerButton}
                 disabled={!isActive}
@@ -127,11 +132,6 @@ const RegisterScreen = () => {
               >
                 <Text style={registerStyle.textButton}>Send</Text>
               </TouchableOpacity>
-              <View style={registerStyle.buttonClean}>
-                <TouchableOpacity onPress={clearButton}>
-                  <Text style={registerStyle.textButton}>Clean</Text>
-                </TouchableOpacity>
-              </View>
             </View>
           </View>
         </ScrollView>

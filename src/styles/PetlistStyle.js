@@ -17,7 +17,6 @@ export const styles = {
   },
   flatlistStyle: {
     padding: 15,
-    paddingBottom: 70,
   },
 
   containerFlatlist: {

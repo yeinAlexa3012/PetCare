@@ -62,18 +62,18 @@ export const styles = {
   },
   button: {
     backgroundColor: COLORS.primary,
-    padding:5,
+    padding: 5,
     paddingBottom: 10,
     paddingTop: 10,
-    width:150,
+    width: 150,
     borderRadius: 25,
     marginTop: 30,
-    marginBottom:70
+    marginBottom: 25,
   },
   buttonText: {
     color: '#fff',
     fontSize: 18,
     fontWeight: 'bold',
-    textAlign: 'center'
+    textAlign: 'center',
   },
 };
